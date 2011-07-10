@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA3DFF1513CA53A4007D432B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3DFF1413CA53A4007D432B /* Foundation.framework */; };
+		DA3DFF1813CA53A4007D432B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3DFF1713CA53A4007D432B /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA3DFF0E13CA53A4007D432B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA3DFF1013CA53A4007D432B /* CliWfi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CliWfi; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3DFF1413CA53A4007D432B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA3DFF1713CA53A4007D432B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA3DFF1A13CA53A4007D432B /* CliWfi-Prefix.pch */ = {isa = PBXFileReference; path = "CliWfi-Prefix.pch"; sourceTree = "<group>"; };
+		DA3DFF1B13CA53A4007D432B /* CliWfi.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CliWfi.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3DFF0D13CA53A4007D432B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3DFF1513CA53A4007D432B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA3DFF0513CA53A4007D432B = {
+			isa = PBXGroup;
+			children = (
+				DA3DFF1613CA53A4007D432B /* CliWfi */,
+				DA3DFF1313CA53A4007D432B /* Frameworks */,
+				DA3DFF1113CA53A4007D432B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3DFF1113CA53A4007D432B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3DFF1013CA53A4007D432B /* CliWfi */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA3DFF1313CA53A4007D432B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA3DFF1413CA53A4007D432B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA3DFF1613CA53A4007D432B /* CliWfi */ = {
+			isa = PBXGroup;
+			children = (
+				DA3DFF1713CA53A4007D432B /* main.m */,
+				DA3DFF1B13CA53A4007D432B /* CliWfi.1 */,
+				DA3DFF1913CA53A4007D432B /* Supporting Files */,
+			);
+			path = CliWfi;
+			sourceTree = "<group>";
+		};
+		DA3DFF1913CA53A4007D432B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA3DFF1A13CA53A4007D432B /* CliWfi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3DFF0F13CA53A4007D432B /* CliWfi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3DFF1E13CA53A4007D432B /* Build configuration list for PBXNativeTarget "CliWfi" */;
+			buildPhases = (
+				DA3DFF0C13CA53A4007D432B /* Sources */,
+				DA3DFF0D13CA53A4007D432B /* Frameworks */,
+				DA3DFF0E13CA53A4007D432B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CliWfi;
+			productName = CliWfi;
+			productReference = DA3DFF1013CA53A4007D432B /* CliWfi */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3DFF0713CA53A4007D432B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DA3DFF0A13CA53A4007D432B /* Build configuration list for PBXProject "CliWfi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA3DFF0513CA53A4007D432B;
+			productRefGroup = DA3DFF1113CA53A4007D432B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3DFF0F13CA53A4007D432B /* CliWfi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3DFF0C13CA53A4007D432B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3DFF1813CA53A4007D432B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA3DFF1C13CA53A4007D432B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DA3DFF1D13CA53A4007D432B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DA3DFF1F13CA53A4007D432B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CliWfi/CliWfi-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA3DFF2013CA53A4007D432B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CliWfi/CliWfi-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3DFF0A13CA53A4007D432B /* Build configuration list for PBXProject "CliWfi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3DFF1C13CA53A4007D432B /* Debug */,
+				DA3DFF1D13CA53A4007D432B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3DFF1E13CA53A4007D432B /* Build configuration list for PBXNativeTarget "CliWfi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3DFF1F13CA53A4007D432B /* Debug */,
+				DA3DFF2013CA53A4007D432B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3DFF0713CA53A4007D432B /* Project object */;
+}
