@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'CliWfi' target in the 'CliWfi' project
-//
-
-#ifdef __OBJC__
-    #import <Foundation/Foundation.h>
-#endif

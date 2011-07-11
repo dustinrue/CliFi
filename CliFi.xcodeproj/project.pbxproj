@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DA3DFF1513CA53A4007D432B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3DFF1413CA53A4007D432B /* Foundation.framework */; };
 		DA3DFF1813CA53A4007D432B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3DFF1713CA53A4007D432B /* main.m */; };
+		DA3DFF2313CA53C3007D432B /* WiFi.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3DFF2213CA53C3007D432B /* WiFi.m */; };
+		DA3DFF2513CA5887007D432B /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3DFF2413CA5887007D432B /* CoreWLAN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,11 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DA3DFF1013CA53A4007D432B /* CliWfi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CliWfi; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3DFF1013CA53A4007D432B /* CliFi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CliFi; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3DFF1413CA53A4007D432B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DA3DFF1713CA53A4007D432B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DA3DFF1A13CA53A4007D432B /* CliWfi-Prefix.pch */ = {isa = PBXFileReference; path = "CliWfi-Prefix.pch"; sourceTree = "<group>"; };
-		DA3DFF1B13CA53A4007D432B /* CliWfi.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CliWfi.1; sourceTree = "<group>"; };
+		DA3DFF1A13CA53A4007D432B /* CliFi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CliFi-Prefix.pch"; sourceTree = "<group>"; };
+		DA3DFF1B13CA53A4007D432B /* CliFi.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CliFi.1; sourceTree = "<group>"; };
+		DA3DFF2113CA53C3007D432B /* WiFi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WiFi.h; sourceTree = "<group>"; };
+		DA3DFF2213CA53C3007D432B /* WiFi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WiFi.m; sourceTree = "<group>"; };
+		DA3DFF2413CA5887007D432B /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA3DFF2513CA5887007D432B /* CoreWLAN.framework in Frameworks */,
 				DA3DFF1513CA53A4007D432B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +52,7 @@
 		DA3DFF0513CA53A4007D432B = {
 			isa = PBXGroup;
 			children = (
-				DA3DFF1613CA53A4007D432B /* CliWfi */,
+				DA3DFF1613CA53A4007D432B /* CliFi */,
 				DA3DFF1313CA53A4007D432B /* Frameworks */,
 				DA3DFF1113CA53A4007D432B /* Products */,
 			);
@@ -55,7 +61,7 @@
 		DA3DFF1113CA53A4007D432B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA3DFF1013CA53A4007D432B /* CliWfi */,
+				DA3DFF1013CA53A4007D432B /* CliFi */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,25 +69,28 @@
 		DA3DFF1313CA53A4007D432B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA3DFF2413CA5887007D432B /* CoreWLAN.framework */,
 				DA3DFF1413CA53A4007D432B /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA3DFF1613CA53A4007D432B /* CliWfi */ = {
+		DA3DFF1613CA53A4007D432B /* CliFi */ = {
 			isa = PBXGroup;
 			children = (
 				DA3DFF1713CA53A4007D432B /* main.m */,
-				DA3DFF1B13CA53A4007D432B /* CliWfi.1 */,
+				DA3DFF2113CA53C3007D432B /* WiFi.h */,
+				DA3DFF2213CA53C3007D432B /* WiFi.m */,
+				DA3DFF1B13CA53A4007D432B /* CliFi.1 */,
 				DA3DFF1913CA53A4007D432B /* Supporting Files */,
 			);
-			path = CliWfi;
+			path = CliFi;
 			sourceTree = "<group>";
 		};
 		DA3DFF1913CA53A4007D432B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA3DFF1A13CA53A4007D432B /* CliWfi-Prefix.pch */,
+				DA3DFF1A13CA53A4007D432B /* CliFi-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -89,9 +98,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA3DFF0F13CA53A4007D432B /* CliWfi */ = {
+		DA3DFF0F13CA53A4007D432B /* CliFi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA3DFF1E13CA53A4007D432B /* Build configuration list for PBXNativeTarget "CliWfi" */;
+			buildConfigurationList = DA3DFF1E13CA53A4007D432B /* Build configuration list for PBXNativeTarget "CliFi" */;
 			buildPhases = (
 				DA3DFF0C13CA53A4007D432B /* Sources */,
 				DA3DFF0D13CA53A4007D432B /* Frameworks */,
@@ -101,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = CliWfi;
-			productName = CliWfi;
-			productReference = DA3DFF1013CA53A4007D432B /* CliWfi */;
+			name = CliFi;
+			productName = CliFi;
+			productReference = DA3DFF1013CA53A4007D432B /* CliFi */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +120,7 @@
 /* Begin PBXProject section */
 		DA3DFF0713CA53A4007D432B /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = DA3DFF0A13CA53A4007D432B /* Build configuration list for PBXProject "CliWfi" */;
+			buildConfigurationList = DA3DFF0A13CA53A4007D432B /* Build configuration list for PBXProject "CliFi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -123,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA3DFF0F13CA53A4007D432B /* CliWfi */,
+				DA3DFF0F13CA53A4007D432B /* CliFi */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA3DFF1813CA53A4007D432B /* main.m in Sources */,
+				DA3DFF2313CA53C3007D432B /* WiFi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +190,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CliWfi/CliWfi-Prefix.pch";
+				GCC_PREFIX_HEADER = "CliFi/CliFi-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -193,7 +203,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CliWfi/CliWfi-Prefix.pch";
+				GCC_PREFIX_HEADER = "CliFi/CliFi-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -201,7 +211,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA3DFF0A13CA53A4007D432B /* Build configuration list for PBXProject "CliWfi" */ = {
+		DA3DFF0A13CA53A4007D432B /* Build configuration list for PBXProject "CliFi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA3DFF1C13CA53A4007D432B /* Debug */,
@@ -210,13 +220,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA3DFF1E13CA53A4007D432B /* Build configuration list for PBXNativeTarget "CliWfi" */ = {
+		DA3DFF1E13CA53A4007D432B /* Build configuration list for PBXNativeTarget "CliFi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA3DFF1F13CA53A4007D432B /* Debug */,
 				DA3DFF2013CA53A4007D432B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
