@@ -1,0 +1,1 @@
+CliFi is a project for me to learn some Objective-C.  More specifically, CliFi might become a command line WiFi scanner and client.  Right now it is simply a client.
