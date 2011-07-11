@@ -390,7 +390,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>332039043.13309598</real>
+		<real>332039043.18281299</real>
 		<string>{39, 735}</string>
 		<dict>
 			<key>$class</key>
@@ -1353,7 +1353,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>332039043.13297898</real>
+		<real>332039048.27641398</real>
 		<string>{0, 165}</string>
 		<string>{165, 0}</string>
 		<dict>
@@ -3474,7 +3474,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>332039043.13512802</real>
+		<real>332039048.27922702</real>
 		<string>{0, 165}</string>
 		<string>{165, 0}</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
